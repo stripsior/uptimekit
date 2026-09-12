@@ -313,9 +313,7 @@ export function TagsManager({
                                             render={
                                                 <DropdownMenuItem
                                                     className="text-red-500"
-                                                    onSelect={(e) =>
-                                                        e.preventDefault()
-                                                    }
+                                                    closeOnClick={false}
                                                 />
                                             }
                                         >
